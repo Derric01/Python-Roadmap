@@ -3,19 +3,18 @@ A clear road map to learn python programming language
 
 Here’s a Python Learning Roadmap that you can follow to master Python, with a clear progression from beginner to advanced topics:
 
-markdown
 
 # Python Learning Roadmap
 
 ## Stage 1: Python Basics (1-2 weeks)
-**Objective**: Get familiar with Python syntax and basic constructs.
-- **Variables & Data Types**: `int`, `float`, `str`, `bool`
-- **Basic Operators**: Arithmetic, comparison, logical
-- **Control Flow**: `if`, `elif`, `else`
-- **Loops**: `for`, `while`
-- **Functions**: Define and call functions, `return`
-- **Input/Output**: `input()`, `print()`
-- **Error Handling**: `try`, `except`
+Objective: Get familiar with Python syntax and basic constructs.
+- Variables & Data Types**: `int`, `float`, `str`, `bool`
+- Basic Operators**: Arithmetic, comparison, logical
+- Control Flow**: `if`, `elif`, `else`
+- Loops: `for`, `while`
+- Functions: Define and call functions, `return`
+- Input/Output: `input()`, `print()`
+- Error Handling: `try`, `except`
 
 ### Example:
 python
