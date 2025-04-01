@@ -126,4 +126,4 @@ Objective: Solidify your knowledge with real-world projects.
         Data Analysis Project with Pandas
     Contribute to open-source projects on GitHub.
 
-Total Estimated Time: 3-6 months
+Total Estimated Time: 3-6 months--
