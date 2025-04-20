@@ -1,129 +1,37 @@
-# Python-Roadmap
-A clear road map to learn python programming language
+# 🐍 Python Basics Timeline
 
-Here’s a Python Learning Roadmap that you can follow to master Python, with a clear progression from beginner to advanced topics:
+Welcome to the **Python Basics** learning repo! Below is a timeline-style breakdown of the concepts covered, from fundamentals to slightly advanced topics 🚀
 
+| ⏱️ Time | 🧠 Concept              | ✅ Status     | 📁 Folder/Link |
+|--------|-------------------------|---------------|----------------|
+| Week 1 | 🔤 Variables & Data Types | ✅ Completed  | [`01-basics`](./01-basics) |
+| Week 2 | 🔁 Control Flow           | ✅ Completed  | [`02-control-flow`](./02-control-flow) |
+| Week 3 | 📦 Functions              | ✅ Completed  | [`03-functions`](./03-functions) |
+| Week 4 | 📚 Modules & Packages     | ✅ Completed  | [`04-modules`](./04-modules) |
+| Week 5 | 🐛 Error Handling         | ✅ Completed  | [`05-errors`](./05-errors) |
+| Week 6 | 🧱 OOP (Classes & Objects)| ⏳ In Progress| [`06-oop`](./06-oop) |
+| Week 7 | 📂 File Handling          | 🔜 Coming Up  | [`07-files`](./07-files) |
+| Week 8 | 🌐 Web Requests           | 🔜 Coming Up  | [`08-requests`](./08-requests) |
 
-# Python Learning Roadmap
+---
 
-## Stage 1: Python Basics (1-2 weeks)
-Objective: Get familiar with Python syntax and basic constructs.
-- Variables & Data Types**: `int`, `float`, `str`, `bool`
-- Basic Operators**: Arithmetic, comparison, logical
-- Control Flow**: `if`, `elif`, `else`
-- Loops: `for`, `while`
-- Functions: Define and call functions, `return`
-- Input/Output: `input()`, `print()`
-- Error Handling: `try`, `except`
+> ✅ = Completed  
+> ⏳ = In Progress  
+> 🔜 = Coming Up  
 
-### Example:
-python
-name = input("Enter your name: ")
-print(f"Hello, {name}!")
+---
 
-Stage 2: Data Structures & Algorithms (2-4 weeks)
+### ✨ Features
 
-Objective: Learn essential data structures and algorithms.
+- Clear, topic-wise breakdown of core Python
+- Organized folders per concept
+- Beginner-friendly examples and exercises
+- Timeline-based progress tracking
 
-    Lists & Arrays: Creating, accessing, modifying
-    Tuples & Sets: Immutable sequences, unique elements
-    Dictionaries: Key-value pairs
-    Basic Algorithms:
-        Searching: Linear Search, Binary Search
-        Sorting: Bubble Sort, Selection Sort, Insertion Sort
-    Stacks & Queues: Using lists for LIFO/FIFO operations
+### 🛠️ How to use
 
-Example: Stack using list
+Clone the repo and start exploring each topic folder! Perfect for self-paced learners and Python beginners 👇
 
-python
-
-class Stack:
-    def __init__(self):
-        self.items = []
-    
-    def push(self, item):
-        self.items.append(item)
-    
-    def pop(self):
-        return self.items.pop() if self.items else None
-
-Stage 3: Object-Oriented Programming (OOP) (2-3 weeks)
-
-Objective: Master OOP concepts for structuring your Python code.
-
-    Classes & Objects: class, __init__
-    Encapsulation: Private and public attributes
-    Inheritance: Reusing code with classes
-    Polymorphism: Method overriding, dynamic behavior
-    Methods & Attributes: Instance variables and methods
-
-Example: Class and Object in Python
-
-python
-
-class Car:
-    def __init__(self, make, model):
-        self.make = make
-        self.model = model
-
-    def start_engine(self):
-        print(f"{self.make} {self.model} is now running.")
-
-Stage 4: Intermediate Python (3-4 weeks)
-
-Objective: Deepen your understanding of Python and explore intermediate topics.
-
-    List Comprehensions: Compact way to create lists
-    Lambda Functions: Anonymous functions
-    Decorators: Wrapping functions with added functionality
-    File I/O: Reading from and writing to files
-    Modules & Packages: Importing and creating modules
-
-Example: List Comprehension
-
-python
-
-squares = [x**2 for x in range(10)]
-print(squares)
-
-Stage 5: Advanced Python (4-6 weeks)
-
-Objective: Master complex topics and prepare for real-world Python applications.
-
-    Generators & Iterators: Efficient looping and lazy evaluation
-    Concurrency: Using threading, asyncio for parallelism
-    Regular Expressions: Searching and manipulating text
-    Advanced Data Structures: Heaps, Tries, Graphs
-    Dynamic Programming: Optimization through memoization and tabulation
-
-Example: Generator
-
-python
-
-def count_up_to(max):
-    count = 1
-    while count <= max:
-        yield count
-        count += 1
-
-Stage 6: Frameworks & Libraries (3-4 weeks)
-
-Objective: Learn libraries and frameworks for specific applications.
-
-    Web Development: Flask, Django
-    Data Science: NumPy, Pandas, Matplotlib, Seaborn
-    Machine Learning: Scikit-learn, TensorFlow, Keras
-    Automation: Selenium, BeautifulSoup (web scraping)
-
-Stage 7: Projects & Practice (Ongoing)
-
-Objective: Solidify your knowledge with real-world projects.
-
-    Build projects like:
-        To-Do List Application
-        Web Scraper
-        Simple Web App with Flask/Django
-        Data Analysis Project with Pandas
-    Contribute to open-source projects on GitHub.
-
-Total Estimated Time: 3-6 months--
+```bash
+git clone https://github.com/yourusername/python-basics-timeline.git
+cd python-basics-timeline
