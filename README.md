@@ -1,37 +1,41 @@
-# 🐍 Python Basics Timeline
+# 🐍 Python Basics Journey
 
-Welcome to the **Python Basics** learning repo! Below is a timeline-style breakdown of the concepts covered, from fundamentals to slightly advanced topics 🚀
-
-| ⏱️ Time | 🧠 Concept              | ✅ Status     | 📁 Folder/Link |
-|--------|-------------------------|---------------|----------------|
-| Week 1 | 🔤 Variables & Data Types | ✅ Completed  | [`01-basics`](./01-basics) |
-| Week 2 | 🔁 Control Flow           | ✅ Completed  | [`02-control-flow`](./02-control-flow) |
-| Week 3 | 📦 Functions              | ✅ Completed  | [`03-functions`](./03-functions) |
-| Week 4 | 📚 Modules & Packages     | ✅ Completed  | [`04-modules`](./04-modules) |
-| Week 5 | 🐛 Error Handling         | ✅ Completed  | [`05-errors`](./05-errors) |
-| Week 6 | 🧱 OOP (Classes & Objects)| ⏳ In Progress| [`06-oop`](./06-oop) |
-| Week 7 | 📂 File Handling          | 🔜 Coming Up  | [`07-files`](./07-files) |
-| Week 8 | 🌐 Web Requests           | 🔜 Coming Up  | [`08-requests`](./08-requests) |
+> A beginner-friendly path to mastering Python fundamentals — one step at a time!
 
 ---
 
-> ✅ = Completed  
-> ⏳ = In Progress  
-> 🔜 = Coming Up  
+## 📊 Learning Timeline
+
+| Week | 🧩 Topic | 📄 File | 🚀 Progress |
+|------|---------|--------|-------------|
+| 1️⃣  | Hello, World! | `hello_world.py` | ✅ |
+| 2️⃣  | Data Types & Variables | `data_types.py` | ✅ |
+| 3️⃣  | Control Flow | `control_flow.py` | ✅ |
+| 4️⃣  | Loops & Iteration | `loop.py` | ✅ |
+| 5️⃣  | Lists & Tuples | `list_tuples.py` | ✅ |
+| 6️⃣  | Dictionaries | `dictionary.py` | ✅ |
+| 7️⃣  | Functions | `function.py` | ✅ |
+| 8️⃣  | File Handling | `file.py` | ✅ |
+| 9️⃣  | Object-Oriented Programming | `oop.py` | ✅ |
+| 🔟  | Advanced Concepts | `advance.py` | ✅ |
 
 ---
 
-### ✨ Features
+## ✨ Highlights
 
-- Clear, topic-wise breakdown of core Python
-- Organized folders per concept
-- Beginner-friendly examples and exercises
-- Timeline-based progress tracking
+- ✅ Each concept is in its **own file**
+- 📁 Easy to follow and modify
+- 💡 Perfect for beginners & revision
+- 🛠️ Ready for expansion into projects
 
-### 🛠️ How to use
+---
 
-Clone the repo and start exploring each topic folder! Perfect for self-paced learners and Python beginners 👇
+## 📌 Coming Next
 
-```bash
-git clone https://github.com/yourusername/python-basics-timeline.git
-cd python-basics-timeline
+- [ ] NumPy / Pandas
+- [ ] Flask / Django intro
+- [ ] Real-world mini projects
+
+---
+
+_Stay curious. Keep coding._ 💻✨
